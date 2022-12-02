@@ -1,0 +1,72 @@
+export ([suma/2])
+           anidad
+si erlang se corre en su shell=repl[Repeat Evaluate Print Loop]
+tambien llamados cantidad de argumentos
+
+atomos:
+los atomos son definiciones de un diccionario definido: 
+Colores.azul
+de la paleta de colores, sé de antemano que es el color azul
+
+iex(11)> is_atom(:azul)   
+true
+
+
+iex>h(0)
+H interpreta ayuda del comando; puede ser ayuda del comando, puede ser ayuda del comando con su funcion 
+o solo de su aridad
+
+iex>i(0) inspect
+identifica el protocolo(tipo de dato) y nos permite ver que modulos podemos hacer
+
+estructura de dato son iguales que en python
+
+biding:
+num=num*num
+iguala los puntos de la operacion
+
+casting: convierte un tipo de dato a otro: Integer.to_string
+
+ceil: redondea al mas alto
+floor: redondea el mas bajo
+round: redondea como redondeo cientifico 
+float.ceil(3.1)
+
+float.parse separa la parte decimal con la parte de texto
+iex(7)> {resul, txt}=Float.parse("31.21533aeurfeiu")
+{31.21533, "aeurfeiu"}
+iex(8)> resul
+31.21533
+iex(9)> txt
+"aeurfeiu"
+
+
+bases numericas
+iex(10)> 0b1111
+15
+iex(11)> 0b1111+0b11
+18
+iex(12)> 0b1111+11  
+26
+
+pim concurrator ^evita la mutacion de la variable
+
+concatenar cadenas es con <>
+
+interpolacion de cadenas: "hola #{nombre} tienes #{edad}"
+
+
+iex(13)> [1,1,3,5]++[8,8,3,8]
+[1, 1, 3, 5, 8, 8, 3, 8]
+iex(14)> [1,1,3,5]--[8,8,3,8]
+[1, 1, 5]
+iex(15)> 
+
+patter matching:
+concordancia de datos entre un lado y otro 2=2 dos concuerda con dos
+sobrecarga de funcion cuando dos funcion se llaman iguala
+el _ ignora el valor
+
+aridad cantidad de argumentos que tiene una funcion
+
+son ciudadnos de primer orden pq envia funciones como argumentos 
